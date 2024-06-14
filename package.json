@@ -1,0 +1,41 @@
+{
+  "name": "electron-react-vite",
+  "productName": "electron-react-vite",
+  "version": "0.0.1",
+  "description": "Fastest electron template",
+  "main": "./out/main/index.js",
+  "private": true,
+  "scripts": {
+    "dev": "electron-vite dev",
+    "start": "electron-vite preview",
+    "prettier": "prettier --config .prettierrc.json --write src",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "npm run lint -- --fix",
+    "build": "electron-vite build && electron-builder"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "electron": "^30.0.3",
+    "electron-builder": "^24.13.3",
+    "electron-devtools-installer": "^3.2.0",
+    "electron-vite": "^2.2.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  },
+  "author": "mindes",
+  "license": "MIT",
+  "dependencies": {
+    "7zip-bin": "^5.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
